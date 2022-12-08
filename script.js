@@ -4,7 +4,10 @@ const dayJsObject = dayjs();
 
 console.log(dayJsObject.format("D/M/YYYY H:mm"));
 
-document.getElementById("dateAndTime").innerHTML = "date here";
+document.getElementById("dateAndTime").innerHTML = dayJsObject;
+
+//event listener//
+document.getElementById("btn saveBtn col-2 col-md-1").addEventListener("click", save);
 
 
 
@@ -34,4 +37,5 @@ $(function () {
   // attribute of each time-block be used to do this?
   //
 });
+
 
