@@ -1,7 +1,8 @@
 ## Table of Contents
 1. [General Info](#general-info)
-3. [Screenshot](#screenshot)
-4. [Acceptance Criteria](#acceptance-criteria)
+2. [Screenshot](#screenshot)
+3. [Acceptance Criteria](#acceptance-criteria)
+4. [Link to Deployed Action](#link-to-deployed-action)
 
 ### General Info
 ***
