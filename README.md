@@ -2,11 +2,12 @@
 1. [General Info](#general-info)
 2. [Screenshot](#screenshot)
 3. [Acceptance Criteria](#acceptance-criteria)
-4. [Link to Deployed Action](#link-to-deployed-action)
+4. [Languages Used](#languages-used)
+5. [Link to Deployed Action](#link-to-deployed-action)
 
 ### General Info
 ***
-This is challenge number 5 for Module 5. The assignment requires me to update the starter code provided, and successfully hit the acceptance criteria listed below.
+This is challenge number 5 for Module 5. The assignment requires me to update the starter code provided, and successfully hit the acceptance criteria listed below. This daily Planner shows past, present and future timeslots, and is able to store events in each time slot and save them to local storage.
 
 ### Screenshot
 ![05-third-party-apis-homework-demo](https://user-images.githubusercontent.com/116799866/206538484-30620a6b-ca52-492c-b490-94e1d9db9aaf.gif)
@@ -27,6 +28,10 @@ This is challenge number 5 for Module 5. The assignment requires me to update th
 - WHEN I refresh the page
 - THEN the saved events persist
 
+## Languages Used
+***
+HTML, CSS, JavaScript.
+
 ## Link to Deployed Action
 ***
-link goes here
+[Please click here to view Daily Planner Uno](https://indiataylor1.github.io/daily-planner-uno/)
