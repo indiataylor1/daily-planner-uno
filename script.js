@@ -2,7 +2,7 @@
 
 const dayJsObject = dayjs();
 
-console.log(dayJsObject.format("D/M/YYYY H:mm:")); //PROBLEM 1: Time is only accurate if the page is refreshed - otherwise stays fixed
+console.log(dayJsObject.format("D/M/YYYY")); 
 
 
 
@@ -32,22 +32,19 @@ function auditTask(){
   var currentHour = (dayjs().get('hour'));
   $('.time-block').each(function () {
     var timeId = parseInt($(this).attr('id').split("-")[1]);
-    console.log (timeId); 
     if(currentHour === timeId) {
       $(this).addClass("present")
       $(this).removeClass("past")
     } else if(currentHour > timeId) {
-      if (timeId < 9 || timeId === 12) {
-      $(this).removeClass("past")
-      $(this).addClass("future")
-      } else {
       $(this).addClass("past")
-//PROBLEM 2: Present time slot does not turn to RED
-      }
-      
+      $(this).removeClass("future")
+      $(this).removeClass("present")      
     } else {
       $(this).addClass("future")  //PROBLEM 3: Past events do not change to grey - something wrong with the remove class
+      $(this).removeClass("past")
+      $(this).removeClass("present")
     }
+    
   })
 }
 auditTask();
